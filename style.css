@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+#board, h1
+{
+    padding-top: 3em;
+    text-align: center;
+}
+/* for all 9 cells */
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    /* box-shadow: 7px 7px 25px -3px rgba(0,0,0,0.75); */
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 75px;
+}
+.row {
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+}
+.top {
+    border-bottom: 1px solid black;
+}
+.bottom {
+    border-top: 1px solid black;
+}
+.right {
+    border-left: 1px solid black;
+}
+.left {
+    border-right: 1px solid black;
+}
