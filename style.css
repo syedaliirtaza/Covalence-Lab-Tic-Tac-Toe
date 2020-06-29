@@ -34,3 +34,7 @@ body {
 .left {
     border-right: 1px solid black;
 }
+.winner{
+    display: inline-block;
+    cursor: pointer;
+}
